@@ -1,5 +1,5 @@
 /*
- 	Javier C
+    Javier C
  */
 
 #include <stdio.h>
@@ -8,7 +8,7 @@ int findString(char [], char []);
 
 int main(int argc, const char * argv[]) {
 
-	char find[] = "hat";
+    char find[] = "hat";
     
     /* TESTS */
     printf("Test 1\n");
@@ -36,10 +36,10 @@ int main(int argc, const char * argv[]) {
  */
 int findString(char srcStr[], char toFind[])
 {
-	/* 
-		x= index of srcStr 
-		y= index of toFind
-	*/
+    /* 
+        x= index of srcStr 
+        y= index of toFind
+    */
     int y = 0, x = 0;
     
     /* keep checking while chars are avail. */
